@@ -1,0 +1,34 @@
+首先下载安装好termux 
+打开termux 
+然后运行下面的命令(所有命令都是在英文输入状态下输入) 
+
+pkg update
+
+pkg install git vim perl nodejs-lts wget curl nano cronie moreutils 
+
+输入代码，按回车执行
+
+
+
+
+MT管理器 自己新建文件夹，AA 然后把 联通营业厅.ZIP 解压到AA文件夹
+
+注:必须给终端应用权限，允许手机可以访问储存  termux应用管理
+
+
+cd /storage/emulated/0/AA/联通营业厅/
+
+
+node index.js unicom --user 手机号 --password 服务密码 --appid 
+
+（注:执行不要加----tryrun ）
+
+附带日志清除代码
+
+cd .AutoSignMachine
+
+ls
+
+rm -r *
+
+（清除完成，退出终端，在执行脚本）
